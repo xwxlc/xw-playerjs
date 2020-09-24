@@ -1,0 +1,9 @@
+.xw-video.video-js .vjs-big-play-button {
+  width: 2em;
+  height: 2em;
+  line-height: 1.8em;
+  border-radius: 50%;
+  top: calc(50% - 1em);
+  left: calc(50% - 1em);
+  outline: none;
+}

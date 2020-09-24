@@ -1,0 +1,45 @@
+{
+  "name": "xw-playerjs",
+  "version": "0.0.1",
+  "main": "lib/xw-playerjs.umd.min.js",
+  "author": "xiaolanchong <1006903445@qq.com>",
+  "description": "个人播放器",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwxlc/xw-playerjs.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name xw-playerjs --dest lib packages/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "playerjs"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "hls.js": "^0.14.12",
+    "video.js": "^7.8.4",
+    "vue": "^2.6.11",
+    "xw-playerjs": "^0.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "bugs": {
+    "url": "https://github.com/xwxlc/xw-playerjs/issues"
+  },
+  "homepage": "https://github.com/xwxlc/xw-playerjs#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
